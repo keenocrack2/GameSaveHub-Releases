@@ -1,17 +1,15 @@
 ﻿{
     "appName":  "GameSave Hub",
-    "version":  "1.0.4",
+    "version":  "1.0.5",
     "releaseDate":  "2026-05-16",
-    "serverPackage":  "GameSaveHub.Server-v1.0.4.zip",
+    "serverPackage":  "https://github.com/keenocrack2/GameSaveHub-Releases/releases/download/v1.0.5/GameSaveHub.Server-v1.0.5.zip",
     "clientPackage":  "",
-    "serverSha256":  "B532D173F50D3688678F5A47E448758927710EDFBFBD348033857F5D1308029E",
+    "serverSha256":  "DB955E7B392E5466C93B4E6A8E6BDB718EA10D51D0138A70975C445A5A17288E",
     "clientSha256":  "",
     "isRequired":  false,
     "notes":  [
-                  "Added one-click Update Now action for the server.",
-                  "Added self-update flow that downloads, verifies, extracts, installs, and restarts the app.",
-                  "Added update lock screen so users cannot click other controls while an update is running.",
-                  "Added setting to open the app automatically when the PC starts.",
-                  "Added GitHub Release asset URL resolver for latest.json server packages."
+                  "Fixed update checks that could read an older cached latest.json from raw.githubusercontent.com.",
+                  "Added automatic GitHub raw URL fallback for update metadata.",
+                  "Improved update package URL handling for both relative and full GitHub Release asset links."
               ]
 }
