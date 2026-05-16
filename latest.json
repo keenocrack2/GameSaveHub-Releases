@@ -1,16 +1,17 @@
 ﻿{
     "appName":  "GameSave Hub",
-    "version":  "1.0.3",
+    "version":  "1.0.4",
     "releaseDate":  "2026-05-16",
-    "serverPackage":  "GameSaveHub.Server-v1.0.3.zip",
+    "serverPackage":  "GameSaveHub.Server-v1.0.4.zip",
     "clientPackage":  "",
-    "serverSha256":  "0608A18A191F9A60C756FA7E8BC49CB824D96E26741C51A95C1A7371AC61CAB1",
+    "serverSha256":  "B532D173F50D3688678F5A47E448758927710EDFBFBD348033857F5D1308029E",
     "clientSha256":  "",
     "isRequired":  false,
     "notes":  [
-                  "Added Tray mode setting so the server can keep running in the background.",
-                  "Added saved server startup behavior for automatic server start.",
-                  "Updated Settings labels for clearer startup and tray behavior.",
-                  "Included the latest README and changelog in the release package."
+                  "Added one-click Update Now action for the server.",
+                  "Added self-update flow that downloads, verifies, extracts, installs, and restarts the app.",
+                  "Added update lock screen so users cannot click other controls while an update is running.",
+                  "Added setting to open the app automatically when the PC starts.",
+                  "Added GitHub Release asset URL resolver for latest.json server packages."
               ]
 }
