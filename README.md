@@ -32,13 +32,6 @@ Main server features:
 - Self-update support from the official update source.
 - Single-instance protection.
 
-The server stores local data beside the server executable:
-
-- `game_save_hub.db`
-- `users`
-
-The `updates` folder is created only when the self-update process runs.
-
 ### GameSave Hub Client
 
 The client connects to the server, lets users log in, lists offline games, and handles save/load actions.
